@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ee03587-0bf4-41bd-a277-a9e9b2f747d9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +51,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+            <state relative-caret-position="697">
+              <caret line="41" column="141" lean-forward="true" selection-start-line="41" selection-start-column="141" selection-end-line="41" selection-end-column="141" />
             </state>
           </provider>
         </entry>
@@ -217,12 +215,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523177428420</updated>
       <workItem from="1523177429825" duration="2676000" />
-      <workItem from="1523180600199" duration="18138000" />
+      <workItem from="1523180600199" duration="18501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20814000" />
+    <option name="totallyTimeSpent" value="21177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="74" width="1742" height="962" extended-state="0" />
@@ -364,8 +362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+        <state relative-caret-position="697">
+          <caret line="41" column="141" lean-forward="true" selection-start-line="41" selection-start-column="141" selection-end-line="41" selection-end-column="141" />
         </state>
       </provider>
     </entry>

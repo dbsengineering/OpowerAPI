@@ -37,7 +37,7 @@ To have Opower backend project downloaded and running. [Backend](https://github.
 
 ### Installing
 
-Project make on IntelliJ.
+Project make on Webstorm.
 
 You must to make an MySql database(empty). You can editing the application.properties for database name, login and password of your database.
 
@@ -46,9 +46,9 @@ You must to make an MySql database(empty). You can editing the application.prope
 
 - Launch your database MySql or launch server with bach script sh. (here is MySql)
 
-- Run Main class
+- Run Main class of backend project.
 
-- open Postman or your navigator (here : [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html))
+- launch "grunt serve" command in terminal to start front end project or go to  [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 
 ## Built With
 
