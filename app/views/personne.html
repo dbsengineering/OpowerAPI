@@ -1,0 +1,85 @@
+<link rel="stylesheet" href="styles/personne.css">
+<h1 class="text-center">personne-ctrl</h1>
+
+<!-- get /allPerson -->
+<div class="allPerson">
+  <form class="alert alert-info" name="empList" id="frmAllPers">
+    <h3 class="text-center">/allPerson</h3>
+
+    <p></p>
+
+    <div class="form-group">
+      <button class="btn btn-primary" ng-click="getAllPerson()" ng-disabled="$isEmpty()">GET</button>
+    </div>
+  </form>
+
+  <div class="table-responsive">
+    <p>Format JSON :</p>
+    <pre ><code  id="responseGetAllperson" ng-style="expression">{{jsonPerson}}</code></pre>
+  </div>
+</div>
+<p></p>
+
+<!-- post /addPerson -->
+<div class="addPerson">
+  <form class="alert alert-success" name="empList" id="frmAddPers">
+    <h3 class="text-center">/addPerson</h3>
+
+    <div class="form-group">
+      <label>Nom:</label>
+      <input type="text" name="nom" class="form-control" placeholder="Nom de la personne" ng-model="person.nom"
+             autofocus required/>
+    </div>
+    <p></p>
+    <div class="form-group">
+      <label>Prénom:</label>
+      <input type="text" name="prenom" class="form-control" placeholder="Prénom de la personne"
+             ng-model="person.prenom" autofocus required/>
+    </div>
+    <p></p>
+
+    <div class="form-group">
+      <label>Mail:</label>
+      <input type="text" name="mail" class="form-control" placeholder="mail de la personne" ng-model="person.mail"
+             autofocus
+             required/>
+    </div>
+    <p></p>
+
+    <div class="form-group">
+      <button class="btn btn-success" ng-click="createPerson()" ng-disabled="$isEmpty()">POST</button>
+    </div>
+  </form>
+
+
+  <div class="table-responsive">
+    <p>Format JSON :</p>
+    <pre ><code  id="responseCreatePers" ng-style="expression">{{jsonCreatePerson}}</code></pre>
+  </div>
+</div>
+
+
+<!-- post /deletePerson -->
+<div class="deletePerson">
+  <form class="alert alert-danger" name="empList" id="frmDeletePers">
+    <h3 class="text-center">/deletePerson</h3>
+
+    <div class="form-group">
+      <label>Nom:</label>
+      <input type="text" name="idPerson" class="form-control" placeholder="Id de la personne" ng-model="person.id"
+             autofocus required/>
+    </div>
+    <p></p>
+
+    <div class="form-group">
+      <button class="btn btn-danger" ng-click="deletePerson()" ng-disabled="$isEmpty()">DELETE</button>
+    </div>
+  </form>
+
+
+  <div class="table-responsive">
+    <p>Format JSON :</p>
+    <pre ><code  id="responseDeletePers" ng-style="expression">{{jsonDeletePerson}}</code></pre>
+  </div>
+</div>
+
